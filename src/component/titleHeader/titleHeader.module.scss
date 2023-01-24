@@ -1,0 +1,30 @@
+@import "../../styles/__variables";
+@import "../../styles/__baseStyles";
+
+.title-wrapper {
+  align-items: start;
+}
+
+.titleHeader {
+  @extend .english-font;
+  color: $primaryDark;
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 2.95rem;
+}
+
+.subtitleHeader {
+  @extend .english-font;
+  color: $darkBlack;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.95rem;
+}
+
+.smallertitleHeader {
+  @extend .english-font;
+  color: $darkBlack-flash;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.1rem;
+}
