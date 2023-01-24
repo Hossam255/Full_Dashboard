@@ -1,0 +1,8 @@
+@import '../../styles/__variables';
+@import '../../styles/__baseStyles';
+
+div.card-effects {
+  &:hover {
+    border: 1px solid $kellyGreen !important;
+  }
+}
